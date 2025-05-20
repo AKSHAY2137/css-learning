@@ -4,12 +4,6 @@ body {
   padding: 48px;
 }
 
-h1 {
-  text-align: center;
-  display: inline-block;
-  color: red;
-  font-size: 72px;
-}
 .flex-container {
   display: flex;
   height: 500px;
