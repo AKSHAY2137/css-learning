@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  background: #dedede;
+  padding: 48px;
+}
+
+h1 {
+  text-align: center;
+  display: inline-block;
+  color: red;
+  font-size: 72px;
+}
+.flex-container {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: start; // space when overlap
+  /* align-content: center;  //no space when overlap */
+  background-color: aquamarine;
+}
+.flex-item {
+  height: 80px;
+  width: 80px;
+  border: 2px solid #53cfe7;
+  text-align: center;
+}
+#item-1 {
+  background-color: brown;
+}
+#item-2 {
+  background-color: rgb(234, 175, 210);
+}
+#item-3 {
+  background-color: rgb(210, 241, 96);
+}
+#item-4 {
+  background-color: rgb(90, 66, 215);
+}
+#item-5 {
+  background-color: rgb(212, 230, 171);
+}
